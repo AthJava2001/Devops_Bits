@@ -28,10 +28,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-		    <artifactId>maven-war-plugin</artifactId>
-    <configuration>
-        <webXml>WebContent\WEB-INF\web.xml</webXml>
-    </configuration>
+		   
                 <version>2.1</version>
              
   
