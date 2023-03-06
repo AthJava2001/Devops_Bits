@@ -28,15 +28,19 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>2.1</version>
+		    <artifactId>maven-war-plugin</artifactId>
+    <configuration>
+        <webXml>WebContent\WEB-INF\web.xml</webXml>
+    </configuration>
+<!--                 <version>2.1</version> -->
 <!--                 <artifactId>maven-war-plugin</artifactId>
 			<version>2.6</version> -->
 <!-- 			<configuration>
 				<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration> -->
-		     <configuration>
+<!-- 		     <configuration>
     <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
-  </configuration>
+  </configuration> -->
                 <executions>
                     <execution>
                         <phase>package</phase>
