@@ -34,6 +34,9 @@
 <!-- 			<configuration>
 				<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration> -->
+		     <configuration>
+    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+  </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
